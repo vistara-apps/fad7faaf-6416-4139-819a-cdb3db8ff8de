@@ -37,11 +37,11 @@ export default function EduConnectApp() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-primary-100">
       <div className="max-w-md mx-auto px-4 py-6">
         <FrameHeader />
         <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
-        <main>
+        <main id="main-content" className="focus:outline-none" tabIndex={-1}>
           {renderActiveComponent()}
         </main>
       </div>

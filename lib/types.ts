@@ -66,20 +66,22 @@ export interface HelpResponse {
 }
 
 // UI Component Props
-export interface ButtonProps {
-  variant?: 'primary' | 'secondary' | 'outline';
-  size?: 'sm' | 'md' | 'lg';
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger' | 'success';
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   disabled?: boolean;
   loading?: boolean;
-  onClick?: () => void;
   children: React.ReactNode;
   className?: string;
 }
 
-export interface CardProps {
+export interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
   className?: string;
-  hover?: boolean;
+  variant?: 'default' | 'glass' | 'elevated' | 'outline';
+  padding?: 'none' | 'sm' | 'md' | 'lg';
+  interactive?: boolean;
+  hover?: boolean; // Legacy support
 }
 
 export interface TabItem {

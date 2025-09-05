@@ -1,7 +1,7 @@
 'use client';
 
 import { cn } from '@/lib/utils';
-import { Home, Users, Circle, HelpCircle, User } from 'lucide-react';
+import { Home, Users, Circle, CreditCard, HelpCircle, User } from 'lucide-react';
 
 interface NavigationProps {
   activeTab: string;
@@ -12,6 +12,7 @@ const navItems = [
   { id: 'dashboard', label: 'Dashboard', icon: Home },
   { id: 'study-groups', label: 'Study Groups', icon: Users },
   { id: 'circles', label: 'Circles', icon: Circle },
+  { id: 'payments', label: 'Payments', icon: CreditCard },
   { id: 'help', label: 'Get Help', icon: HelpCircle },
   { id: 'profile', label: 'Profile', icon: User },
 ];

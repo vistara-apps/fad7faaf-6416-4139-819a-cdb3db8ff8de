@@ -6,6 +6,7 @@ import { Navigation } from '@/components/layout/Navigation';
 import { Dashboard } from '@/components/features/Dashboard';
 import { StudyGroups } from '@/components/features/StudyGroups';
 import { Circles } from '@/components/features/Circles';
+import { PaymentDemo } from '@/components/features/PaymentDemo';
 import { StudyHelp } from '@/components/features/StudyHelp';
 import { Profile } from '@/components/features/Profile';
 import { useMiniKit } from '@coinbase/onchainkit/minikit';
@@ -27,6 +28,8 @@ export default function EduConnectApp() {
         return <StudyGroups />;
       case 'circles':
         return <Circles />;
+      case 'payments':
+        return <PaymentDemo />;
       case 'help':
         return <StudyHelp />;
       case 'profile':

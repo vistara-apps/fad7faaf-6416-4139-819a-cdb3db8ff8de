@@ -8,6 +8,7 @@ export const NAVIGATION_ITEMS = [
   { id: 'dashboard', label: 'Dashboard', icon: 'Home' },
   { id: 'study-groups', label: 'Study Groups', icon: 'Users' },
   { id: 'circles', label: 'Circles', icon: 'Circle' },
+  { id: 'payments', label: 'Payments', icon: 'CreditCard' },
   { id: 'help', label: 'Get Help', icon: 'HelpCircle' },
   { id: 'profile', label: 'Profile', icon: 'User' },
 ] as const;

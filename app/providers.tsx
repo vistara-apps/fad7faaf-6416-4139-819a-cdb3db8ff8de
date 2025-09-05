@@ -3,6 +3,7 @@
 import { MiniKitProvider } from '@coinbase/onchainkit/minikit';
 import { base } from 'wagmi/chains';
 import { type ReactNode } from 'react';
+import { AuthProvider } from '@/lib/contexts/AuthContext';
 
 export function Providers({ children }: { children: ReactNode }) {
   return (
@@ -10,7 +11,9 @@ export function Providers({ children }: { children: ReactNode }) {
       chain={base}
       apiKey={process.env.NEXT_PUBLIC_ONCHAINKIT_API_KEY || 'cdp_demo_key'}
     >
-      {children}
+      <AuthProvider>
+        {children}
+      </AuthProvider>
     </MiniKitProvider>
   );
 }

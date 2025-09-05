@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/Input';
 import { Badge } from '@/components/ui/Badge';
 import { Avatar } from '@/components/ui/Avatar';
 import { Tabs } from '@/components/ui/Tabs';
-import { Search, Plus, Users, Calendar, BookOpen } from 'lucide-react';
+import { Search, Plus, Users, Calendar, BookOpen, MessageCircle } from 'lucide-react';
 import { type StudyGroup } from '@/lib/types';
 
 export function StudyGroups() {

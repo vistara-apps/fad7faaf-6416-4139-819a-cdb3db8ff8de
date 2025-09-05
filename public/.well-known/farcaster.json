@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "EduConnect",
+    "subtitle": "Built with Zara",
+    "description": "EduConnect is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://fad7faaf64164139819acdb3db8ff8de-fp5h.vercel.app",
+    "splashImageUrl": "https://fad7faaf64164139819acdb3db8ff8de-fp5h.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://fad7faaf64164139819acdb3db8ff8de-fp5h.vercel.app/image.png",
+    "tagline": "EduConnect",
+    "screenshotUrls": [
+      "https://fad7faaf64164139819acdb3db8ff8de-fp5h.vercel.app/screenshot.png",
+      "https://fad7faaf64164139819acdb3db8ff8de-fp5h.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://fad7faaf64164139819acdb3db8ff8de-fp5h.vercel.app/api/webhook"
+  }
+}
